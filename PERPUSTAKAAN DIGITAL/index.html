@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PerpsON - Perpustakaan Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span>📚</span>
+            <h1>PerpsON</h1>
+        </div>
+        <nav class="main-nav">
+            <a href="#home">Beranda</a>
+            <a href="#koleksi">Koleksi</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+        <div class="header-actions">
+            <a href="#" class="login-btn">Login</a>
+            <a href="#" class="paket-btn">Paket Premium</a>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <div class="slides">
+                <div class="slide s1">
+                    <img src="./dilan2.jpg" alt="Foto 1">
+                </div>
+                <div class="slide s2">
+                    <img src="./OP.jpg" alt="Foto 2">
+                </div>
+                <div class="slide s3">
+                    <img src="./MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Foto 3">
+                </div>
+            </div>
+            <div class="slider-nav">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1>Selamat Datang di PerpsON</h1>
+            <p>Perpustakaan digital terlengkap dengan akses ke ribuan buku favorit</p>
+            <div class="hero-search">
+                <input type="text" placeholder="Cari judul buku, penulis, atau genre...">
+                <button>Cari</button>
+            </div>
+        </div>
+    </section>
+
+    <main id="koleksi">
+        <section class="categories">
+            <button>SMA</button>
+            <button>Seni dan Desain</button>
+            <button>Sastra</button>
+            <button>SD</button>
+            <button>Sains</button>
+            <button>Romansa</button>
+            <button>Komik</button>
+            <button>Novel</button>
+        </section>
+
+        <section class="new-books">
+            <div class="section-title">
+                <h3>Buku Baru</h3>
+                <a href="#">Lihat semua</a>
+            </div>
+            <div class="book-list">
+                <div class="book-card">
+                    <img src="./detektif.jpg" alt="Buku 1">
+                    <p class="book-title">Detektif Conan</p>
+                    <span class="category">Komik</span>
+                </div>
+                <div class="book-card">
+                    <img src="./MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Buku 2">
+                    <p class="book-title">Attack on Titan</p>
+                    <span class="category">Komik</span>
+                </div>
+                <div class="book-card">
+                    <img src="./Dilan-Dia-Adalah-Dilanku-tahun-1990-Pidi-Baiq-front.jpg" alt="Buku 3">
+                    <p class="book-title">Dilan: Dia adalah Dilanku tahun 1990</p>
+                    <span class="category">Romansa</span>
+                </div>
+                <div class="book-card">
+                    <img src="./dilan2.jpg" alt="Buku 4">
+                    <p class="book-title">Dilan Bagian Kedua</p>
+                    <span class="category">Romansa</span>
+                </div>
+                <div class="book-card">
+                    <img src="./milea.jpg" alt="Buku 5">
+                    <p class="book-title">Milea: Suara dari Dilan</p>
+                    <span class="category">Romansa</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular-books">
+            <div class="section-title">
+                <h3>Buku Populer</h3>
+                <a href="#">Lihat semua</a>
+            </div>
+            <div class="book-list">
+                <div class="book-card">
+                    <img src="./OP.jpg" alt="One Piece">
+                    <p class="book-title">One Piece</p>
+                    <span class="category">Komik</span>
+                </div>
+                <div class="book-card">
+                    <img src="./naruto.jpg" alt="Naruto">
+                    <p class="book-title">Naruto</p>
+                    <span class="category">Komik</span>
+                </div>
+                <div class="book-card">
+                    <img src="./dora.jpg" alt="Doraemon">
+                    <p class="book-title">Doraemon</p>
+                    <span class="category">Komik</span>
+                </div>
+                <div class="book-card">
+                    <img src="./Dragon_Ball_Super_Key_visual.jpg" alt="Dragon Ball">
+                    <p class="book-title">Dragon Ball</p>
+                    <span class="category">Komik</span>
+                </div>
+                <div class="book-card">
+                    <img src="./detektif.jpg" alt="Detective Conan">
+                    <p class="book-title">Detective Conan</p>
+                    <span class="category">Komik</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="contact" id="kontak">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Hubungi Kami</h2>
+                <p>Ada pertanyaan? Kirimkan pesan kepada kami!</p>
+                <form>
+                    <input type="text" placeholder="Nama Lengkap" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Subjek" required>
+                    <textarea placeholder="Pesan Anda..." rows="5" required></textarea>
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2>Hubungi Kami Langsung</h2>
+                <p>Preferensi komunikasi lebih cepat? Hubungi kami via WhatsApp!</p>
+                <a href="https://wa.me/6281234567890" class="whatsapp-btn" target="_blank">
+                    <span>💬</span> Hubungi via WhatsApp
+                </a>
+                <div class="other-contact">
+                    <h3>Informasi Kontak</h3>
+                    <p>📧 Email: info@perpustakaanonline.com</p>
+                    <p>📞 Telepon: (62) 853 9746 9955</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>PerpsON</h3>
+                <p>Perpustakaan digital terlengkap di Indonesia. Akses ribuan buku favorit kapan saja, di mana saja.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Tautan Cepat</h3>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#koleksi">Koleksi Buku</a></li>
+                    <li><a href="#tentang">Tentang Kami</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Kategori</h3>
+                <ul>
+                    <li><a href="#">Novel</a></li>
+                    <li><a href="#">Komik</a></li>
+                    <li><a href="#">Sastra</a></li>
+                    <li><a href="#">Sains</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Ikuti Kami</h3>
+                <div class="social-links">
+                    <a href="#">📘 Facebook</a>
+                    <a href="#">🐦 Twitter</a>
+                    <a href="#">📸 Instagram</a>
+                    <a href="#">▶️ YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 PerpsON - Perpustakaan Digital. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
